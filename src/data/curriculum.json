@@ -1,0 +1,1981 @@
+{
+  "vocabulary": [
+    {
+      "id": "countries-001",
+      "japanese": "アンドラ",
+      "kana": "あんどら",
+      "romaji": "Andora",
+      "english": "Andorra",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-002",
+      "japanese": "オーストリア",
+      "kana": "おーすとりあ",
+      "romaji": "Oosutoria",
+      "english": "Austria",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-003",
+      "japanese": "ベラルーシ",
+      "kana": "べらるーし",
+      "romaji": "Beraruushi",
+      "english": "Belarus",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-004",
+      "japanese": "ベルギー",
+      "kana": "べるぎー",
+      "romaji": "Berugii",
+      "english": "Belgium",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-005",
+      "japanese": "ボスニア‧ヘル ツェゴビナ",
+      "kana": "ぼすにあ‧へる つぇごびな",
+      "romaji": "Bosunia Herutsegobina",
+      "english": "Bosnia and Herzegovina",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-006",
+      "japanese": "ブルガリア",
+      "kana": "ぶるがりあ",
+      "romaji": "Burugaria",
+      "english": "Bulgaria",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-007",
+      "japanese": "チェコ",
+      "kana": "ちぇこ",
+      "romaji": "Cheko",
+      "english": "Czech Republic",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-008",
+      "japanese": "デンマーク",
+      "kana": "でんまーく",
+      "romaji": "Denmaaku",
+      "english": "Denmark",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-009",
+      "japanese": "エストニア",
+      "kana": "えすとにあ",
+      "romaji": "Esutonia",
+      "english": "Estonia",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-010",
+      "japanese": "フィンランド",
+      "kana": "ふぃんらんど",
+      "romaji": "Finrando",
+      "english": "Finland",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-011",
+      "japanese": "フランス",
+      "kana": "ふらんす",
+      "romaji": "Furansu",
+      "english": "France",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-012",
+      "japanese": "ギリシャ",
+      "kana": "ぎりしゃ",
+      "romaji": "Girisha",
+      "english": "Greece",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-013",
+      "japanese": "ハンガリー",
+      "kana": "はんがりー",
+      "romaji": "Hangarii",
+      "english": "Hungary",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-014",
+      "japanese": "アイスランド",
+      "kana": "あいすらんど",
+      "romaji": "Aisurando",
+      "english": "Iceland",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-015",
+      "japanese": "イギリス",
+      "kana": "いぎりす",
+      "romaji": "Igirisu",
+      "english": "United Kingdom",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-016",
+      "japanese": "アイルランド",
+      "kana": "あいるらんど",
+      "romaji": "Airurando",
+      "english": "Ireland",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-017",
+      "japanese": "イタリア",
+      "kana": "いたりあ",
+      "romaji": "Itaria",
+      "english": "Italy",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-018",
+      "japanese": "ラトビア",
+      "kana": "らとびあ",
+      "romaji": "Ratobia",
+      "english": "Latvia",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-019",
+      "japanese": "リヒテンシュタ イン",
+      "kana": "りひてんしゅた いん",
+      "romaji": "Rihitenshutain",
+      "english": "Liechtenstein",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-020",
+      "japanese": "リトアニア",
+      "kana": "りとあにあ",
+      "romaji": "Ritoania",
+      "english": "Lithuania",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-021",
+      "japanese": "ルクセンブルク",
+      "kana": "るくせんぶるく",
+      "romaji": "Rukusenburuku",
+      "english": "Luxembourg",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-022",
+      "japanese": "マルタ",
+      "kana": "まるた",
+      "romaji": "Maruta",
+      "english": "Malta",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-023",
+      "japanese": "マケドニア",
+      "kana": "まけどにあ",
+      "romaji": "Makedonia",
+      "english": "North Macedonia",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-024",
+      "japanese": "モンテネグロ",
+      "kana": "もんてねぐろ",
+      "romaji": "Monteneguro",
+      "english": "Montenegro",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-025",
+      "japanese": "オランダ",
+      "kana": "おらんだ",
+      "romaji": "Oranda",
+      "english": "Netherlands",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-026",
+      "japanese": "ノルウェー",
+      "kana": "のるうぇー",
+      "romaji": "Noruwee",
+      "english": "Norway",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-027",
+      "japanese": "ポーランド",
+      "kana": "ぽーらんど",
+      "romaji": "Poorando",
+      "english": "Poland",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-028",
+      "japanese": "ポルトガル",
+      "kana": "ぽるとがる",
+      "romaji": "Porutogaru",
+      "english": "Portugal",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-029",
+      "japanese": "ルーマニア",
+      "kana": "るーまにあ",
+      "romaji": "Ruumania",
+      "english": "Romania",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-030",
+      "japanese": "ロシア",
+      "kana": "ろしあ",
+      "romaji": "Roshia",
+      "english": "Russia",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-031",
+      "japanese": "サンマリノ",
+      "kana": "さんまりの",
+      "romaji": "Sanmarino",
+      "english": "San Marino",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-032",
+      "japanese": "セルビア",
+      "kana": "せるびあ",
+      "romaji": "Serubia",
+      "english": "Serbia",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-033",
+      "japanese": "スロベニア",
+      "kana": "すろべにあ",
+      "romaji": "Surobenia",
+      "english": "Slovenia",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-034",
+      "japanese": "スロバキア",
+      "kana": "すろばきあ",
+      "romaji": "Surobakia",
+      "english": "Slovakia",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-035",
+      "japanese": "スペイン",
+      "kana": "すぺいん",
+      "romaji": "Supein",
+      "english": "Spain",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-036",
+      "japanese": "スイス",
+      "kana": "すいす",
+      "romaji": "Suisu",
+      "english": "Switzerland",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-037",
+      "japanese": "スウェーデン",
+      "kana": "すうぇーでん",
+      "romaji": "Suweeden",
+      "english": "Sweden",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-038",
+      "japanese": "ウクライナ",
+      "kana": "うくらいな",
+      "romaji": "Ukuraina",
+      "english": "Ukraine",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-039",
+      "japanese": "バチカン",
+      "kana": "ばちかん",
+      "romaji": "Bachikan",
+      "english": "Vatican City",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-040",
+      "japanese": "中国",
+      "kana": "ちゅうごく",
+      "romaji": "Chuugoku",
+      "english": "China",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-041",
+      "japanese": "インド",
+      "kana": "いんど",
+      "romaji": "Indo",
+      "english": "India",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-042",
+      "japanese": "インドネシア",
+      "kana": "いんどねしあ",
+      "romaji": "Indoneshia",
+      "english": "Indonesia",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-043",
+      "japanese": "日本",
+      "kana": "にほん",
+      "romaji": "Nihon",
+      "english": "Japan",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-044",
+      "japanese": "韓国",
+      "kana": "かんこく",
+      "romaji": "Kankoku",
+      "english": "South Korea",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-045",
+      "japanese": "タイ",
+      "kana": "たい",
+      "romaji": "Tai",
+      "english": "Thailand",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-046",
+      "japanese": "台湾",
+      "kana": "たいわん",
+      "romaji": "Taiwan",
+      "english": "Taiwan",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-047",
+      "japanese": "ベトナム",
+      "kana": "べとなむ",
+      "romaji": "Betonamu",
+      "english": "Vietnam",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-048",
+      "japanese": "カナダ",
+      "kana": "かなだ",
+      "romaji": "Kanada",
+      "english": "Canada",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-049",
+      "japanese": "メキシコ",
+      "kana": "めきしこ",
+      "romaji": "Mekishiko",
+      "english": "Mexico",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-050",
+      "japanese": "アメリカ",
+      "kana": "あめりか",
+      "romaji": "Amerika",
+      "english": "United States",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-051",
+      "japanese": "アルゼンチン",
+      "kana": "あるぜんちん",
+      "romaji": "Aruzenchin",
+      "english": "Argentina",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-052",
+      "japanese": "ブラジル",
+      "kana": "ぶらじる",
+      "romaji": "Burajiru",
+      "english": "Brazil",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-053",
+      "japanese": "チリ",
+      "kana": "ちり",
+      "romaji": "Chiri",
+      "english": "Chile",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-054",
+      "japanese": "コロンビア",
+      "kana": "ころんびあ",
+      "romaji": "Koronbia",
+      "english": "Colombia",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-055",
+      "japanese": "ペルー",
+      "kana": "ぺるー",
+      "romaji": "Peruu",
+      "english": "Peru",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-056",
+      "japanese": "エジプト",
+      "kana": "えじぷと",
+      "romaji": "Ejiputo",
+      "english": "Egypt",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-057",
+      "japanese": "ケニア",
+      "kana": "けにあ",
+      "romaji": "Kenia",
+      "english": "Kenya",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-058",
+      "japanese": "モロッコ",
+      "kana": "もろっこ",
+      "romaji": "Morokko",
+      "english": "Morocco",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-059",
+      "japanese": "ナイジェリア",
+      "kana": "ないじぇりあ",
+      "romaji": "Naijeria",
+      "english": "Nigeria",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-060",
+      "japanese": "おーすとらりあ",
+      "kana": "おーすとらりあ",
+      "romaji": "Oosutoraria",
+      "english": "Australia",
+      "category": "Countries"
+    },
+    {
+      "id": "countries-061",
+      "japanese": "にゅーじーらんど",
+      "kana": "にゅーじーらんど",
+      "romaji": "Nyuujiirando",
+      "english": "New Zealand",
+      "category": "Countries"
+    },
+    {
+      "id": "jobs-062",
+      "japanese": "建築家",
+      "kana": "けんちくか",
+      "romaji": "kenchikuka",
+      "english": "architect",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-063",
+      "japanese": "銀行員",
+      "kana": "ぎんこういん",
+      "romaji": "ginkouin",
+      "english": "bank employee",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-064",
+      "japanese": "公務員",
+      "kana": "こうむいん",
+      "romaji": "koumuin",
+      "english": "civil servant",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-065",
+      "japanese": "料理人",
+      "kana": "りょうりにん",
+      "romaji": "ryourinin",
+      "english": "cook, chef",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-066",
+      "japanese": "会社員",
+      "kana": "かいしゃいん",
+      "romaji": "kaishain",
+      "english": "company employee",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-067",
+      "japanese": "医者",
+      "kana": "いしゃ",
+      "romaji": "isha",
+      "english": "doctor",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-068",
+      "japanese": "運転手",
+      "kana": "うんてんしゅ",
+      "romaji": "untenshu",
+      "english": "driver",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-069",
+      "japanese": "小学生",
+      "kana": "しょうがくせい",
+      "romaji": "shougakusei",
+      "english": "elementary school student",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-070",
+      "japanese": "社員",
+      "kana": "しゃいん",
+      "romaji": "shain",
+      "english": "employee",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-071",
+      "japanese": "エンジニア",
+      "kana": "エンジニア",
+      "romaji": "enjinia",
+      "english": "engineer",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-072",
+      "japanese": "消防士",
+      "kana": "しょうぼうし",
+      "romaji": "shbshi",
+      "english": "firefighter",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-073",
+      "japanese": "美容師",
+      "kana": "びようし",
+      "romaji": "biyoushi",
+      "english": "hairdresser, hairstylist",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-074",
+      "japanese": "高校生",
+      "kana": "こうこうせい",
+      "romaji": "koukousei",
+      "english": "high school student",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-075",
+      "japanese": "主夫",
+      "kana": "しゅふ",
+      "romaji": "shufu",
+      "english": "househusband",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-076",
+      "japanese": "主婦",
+      "kana": "しゅふ",
+      "romaji": "shufu",
+      "english": "housewife",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-077",
+      "japanese": "弁護士",
+      "kana": "べんごし",
+      "romaji": "bengoshi",
+      "english": "lawyer",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-078",
+      "japanese": "中学生",
+      "kana": "ちゅうがくせい",
+      "romaji": "chuugakusei",
+      "english": "middle school student",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-079",
+      "japanese": "看護師",
+      "kana": "かんごし",
+      "romaji": "kangoshi",
+      "english": "nurse",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-080",
+      "japanese": "事務員",
+      "kana": "じむいん",
+      "romaji": "jimuin",
+      "english": "office worker",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-081",
+      "japanese": "アルバイト",
+      "kana": "あるばいと",
+      "romaji": "arubaito",
+      "english": "part-time worker",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-082",
+      "japanese": "警察官",
+      "kana": "けいさつかん",
+      "romaji": "keisatsukan",
+      "english": "police officer",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-083",
+      "japanese": "研究者",
+      "kana": "けんきゅうしゃ",
+      "romaji": "kenkyuusha",
+      "english": "researcher",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-084",
+      "japanese": "店員",
+      "kana": "てんいん",
+      "romaji": "ten'in",
+      "english": "shop assistant",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-085",
+      "japanese": "歌手",
+      "kana": "かしゅ",
+      "romaji": "kashu",
+      "english": "singer",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-086",
+      "japanese": "学生",
+      "kana": "がくせい",
+      "romaji": "gakusei",
+      "english": "student",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-087",
+      "japanese": "先生",
+      "kana": "せんせい",
+      "romaji": "sensei",
+      "english": "teacher, title",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-088",
+      "japanese": "教師",
+      "kana": "きょうし",
+      "romaji": "kyoushi",
+      "english": "teacher, profession",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-089",
+      "japanese": "大学生",
+      "kana": "だいがくせい",
+      "romaji": "daigakusei",
+      "english": "university student",
+      "category": "Jobs"
+    },
+    {
+      "id": "jobs-090",
+      "japanese": "作家",
+      "kana": "さっか",
+      "romaji": "sakka",
+      "english": "writer",
+      "category": "Jobs"
+    },
+    {
+      "id": "languages-091",
+      "japanese": "アラビア語",
+      "kana": "あらびあご",
+      "romaji": "Arabiago",
+      "english": "Arabic",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-092",
+      "japanese": "中国語",
+      "kana": "ちゅうごくご",
+      "romaji": "Chuugokugo",
+      "english": "Chinese",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-093",
+      "japanese": "オランダ語",
+      "kana": "おらんだご",
+      "romaji": "Orandago",
+      "english": "Dutch",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-094",
+      "japanese": "英語",
+      "kana": "えいご",
+      "romaji": "Eigo",
+      "english": "English",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-095",
+      "japanese": "フランス語",
+      "kana": "ふらんすご",
+      "romaji": "Furansugo",
+      "english": "French",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-096",
+      "japanese": "ドイツ語",
+      "kana": "どいつご",
+      "romaji": "Doitsugo",
+      "english": "German",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-097",
+      "japanese": "ヒンディー語",
+      "kana": "ひんでぃーご",
+      "romaji": "Hindiigo",
+      "english": "Hindi",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-098",
+      "japanese": "インドネシア語",
+      "kana": "いんどねしあご",
+      "romaji": "Indoneshiago",
+      "english": "Indonesian",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-099",
+      "japanese": "イタリア語",
+      "kana": "いたりあご",
+      "romaji": "Itariago",
+      "english": "Italian",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-100",
+      "japanese": "日本語",
+      "kana": "にほんご",
+      "romaji": "Nihongo",
+      "english": "Japanese",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-101",
+      "japanese": "韓国語",
+      "kana": "かんこくご",
+      "romaji": "Kankokugo",
+      "english": "Korean",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-102",
+      "japanese": "ポーランド語",
+      "kana": "ぽーらんどご",
+      "romaji": "Poorandogo",
+      "english": "Polish",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-103",
+      "japanese": "ポルトガル語",
+      "kana": "ぽるとがるご",
+      "romaji": "Porutogarugo",
+      "english": "Portuguese",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-104",
+      "japanese": "ロシア語",
+      "kana": "ろしあご",
+      "romaji": "Roshiago",
+      "english": "Russian",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-105",
+      "japanese": "スペイン語",
+      "kana": "すぺいんご",
+      "romaji": "Supeingo",
+      "english": "Spanish",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-106",
+      "japanese": "ウクライナ語",
+      "kana": "うくらいなご",
+      "romaji": "Ukurainago",
+      "english": "Ukrainian",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-107",
+      "japanese": "ベトナム語",
+      "kana": "べとなむご",
+      "romaji": "Betonamugo",
+      "english": "Vietnamese",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-108",
+      "japanese": "スウェーデン語",
+      "kana": "すうぇーでんご",
+      "romaji": "Suweedengo",
+      "english": "Swedish",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-109",
+      "japanese": "タイ語",
+      "kana": "たいご",
+      "romaji": "Taigo",
+      "english": "Thai",
+      "category": "Languages"
+    },
+    {
+      "id": "languages-110",
+      "japanese": "トルコ語",
+      "kana": "とるこご",
+      "romaji": "Torukogo",
+      "english": "Turkish",
+      "category": "Languages"
+    },
+    {
+      "id": "possession-111",
+      "japanese": "鞄",
+      "kana": "かばん",
+      "romaji": "Kaban",
+      "english": "Bag",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-112",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "Hon",
+      "english": "Book",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-113",
+      "japanese": "自転車",
+      "kana": "じてんしゃ",
+      "romaji": "Jitensha",
+      "english": "Bicycle",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-114",
+      "japanese": "椅子",
+      "kana": "いす",
+      "romaji": "Isu",
+      "english": "Chair",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-115",
+      "japanese": "パソコン",
+      "kana": "パソコン",
+      "romaji": "Pasokon",
+      "english": "Computer (more common)",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-116",
+      "japanese": "コンピューター",
+      "kana": "コンピューター",
+      "romaji": "Konpyt",
+      "english": "Computer",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-117",
+      "japanese": "辞書",
+      "kana": "じしょ",
+      "romaji": "Jisho",
+      "english": "Dictionary",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-118",
+      "japanese": "眼鏡",
+      "kana": "めがね",
+      "romaji": "Megane",
+      "english": "Glasses",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-119",
+      "japanese": "鍵",
+      "kana": "かぎ",
+      "romaji": "Kagi",
+      "english": "Key",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-120",
+      "japanese": "ペン",
+      "kana": "ペン",
+      "romaji": "Pen",
+      "english": "Pen",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-121",
+      "japanese": "鉛筆",
+      "kana": "えんぴつ",
+      "romaji": "Enpitsu",
+      "english": "Pencil",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-122",
+      "japanese": "雑誌",
+      "kana": "ざっし",
+      "romaji": "Zasshi",
+      "english": "Magazine",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-123",
+      "japanese": "携帯電話",
+      "kana": "けいたいでんわ",
+      "romaji": "Keitai denwa",
+      "english": "Mobile phone",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-124",
+      "japanese": "私の",
+      "kana": "わたしの",
+      "romaji": "Watashi no",
+      "english": "My",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-125",
+      "japanese": "新聞",
+      "kana": "しんぶん",
+      "romaji": "Shinbun",
+      "english": "Newspaper",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-126",
+      "japanese": "手帳",
+      "kana": "てちょう",
+      "romaji": "Techou",
+      "english": "Notebook / Planner",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-127",
+      "japanese": "電話",
+      "kana": "でんわ",
+      "romaji": "Denwa",
+      "english": "Phone",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-128",
+      "japanese": "テーブル",
+      "kana": "テーブル",
+      "romaji": "Teeburu",
+      "english": "Table / Desk",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-129",
+      "japanese": "Tシャツ",
+      "kana": "Tシャツ",
+      "romaji": "T shatsu",
+      "english": "T-shirt",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-130",
+      "japanese": "傘",
+      "kana": "かさ",
+      "romaji": "Kasa",
+      "english": "Umbrella",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-131",
+      "japanese": "財布",
+      "kana": "さいふ",
+      "romaji": "Saifu",
+      "english": "Wallet",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-132",
+      "japanese": "時計",
+      "kana": "とけい",
+      "romaji": "Tokei",
+      "english": "Watch",
+      "category": "Possession"
+    },
+    {
+      "id": "possession-133",
+      "japanese": "誰の？",
+      "kana": "だれの？",
+      "romaji": "Dare no?",
+      "english": "Whose?",
+      "category": "Possession"
+    },
+    {
+      "id": "family-134",
+      "japanese": "父",
+      "kana": "ちち",
+      "romaji": "chichi",
+      "english": "my father",
+      "category": "Family"
+    },
+    {
+      "id": "family-135",
+      "japanese": "母",
+      "kana": "はは",
+      "romaji": "haha",
+      "english": "my mother",
+      "category": "Family"
+    },
+    {
+      "id": "family-136",
+      "japanese": "両親",
+      "kana": "りょうしん",
+      "romaji": "ryoushin",
+      "english": "my parents",
+      "category": "Family"
+    },
+    {
+      "id": "family-137",
+      "japanese": "兄",
+      "kana": "あに",
+      "romaji": "ani",
+      "english": "my older brother",
+      "category": "Family"
+    },
+    {
+      "id": "family-138",
+      "japanese": "姉",
+      "kana": "あね",
+      "romaji": "ane",
+      "english": "my older sister",
+      "category": "Family"
+    },
+    {
+      "id": "family-139",
+      "japanese": "弟",
+      "kana": "おとうと",
+      "romaji": "otouto",
+      "english": "my younger brother",
+      "category": "Family"
+    },
+    {
+      "id": "family-140",
+      "japanese": "妹",
+      "kana": "いもうと",
+      "romaji": "imouto",
+      "english": "my younger sister",
+      "category": "Family"
+    },
+    {
+      "id": "family-141",
+      "japanese": "祖父",
+      "kana": "そふ",
+      "romaji": "sofu",
+      "english": "my grandfather",
+      "category": "Family"
+    },
+    {
+      "id": "family-142",
+      "japanese": "祖母",
+      "kana": "そぼ",
+      "romaji": "sobo",
+      "english": "my grandmother",
+      "category": "Family"
+    },
+    {
+      "id": "family-143",
+      "japanese": "息子",
+      "kana": "むすこ",
+      "romaji": "musuko",
+      "english": "my son",
+      "category": "Family"
+    },
+    {
+      "id": "family-144",
+      "japanese": "娘",
+      "kana": "むすめ",
+      "romaji": "musume",
+      "english": "my daughter",
+      "category": "Family"
+    },
+    {
+      "id": "family-145",
+      "japanese": "夫",
+      "kana": "おっと",
+      "romaji": "otto",
+      "english": "my husband",
+      "category": "Family"
+    },
+    {
+      "id": "family-146",
+      "japanese": "妻",
+      "kana": "つま",
+      "romaji": "tsuma",
+      "english": "my wife",
+      "category": "Family"
+    },
+    {
+      "id": "family-147",
+      "japanese": "お父さん",
+      "kana": "おとうさん",
+      "romaji": "otousan",
+      "english": "father",
+      "category": "Family"
+    },
+    {
+      "id": "family-148",
+      "japanese": "お母さん",
+      "kana": "おかあさん",
+      "romaji": "okaasan",
+      "english": "mother",
+      "category": "Family"
+    },
+    {
+      "id": "family-149",
+      "japanese": "ご両親",
+      "kana": "ごりょうしん",
+      "romaji": "goryoushin",
+      "english": "parents",
+      "category": "Family"
+    },
+    {
+      "id": "family-150",
+      "japanese": "お兄さん",
+      "kana": "おにいさん",
+      "romaji": "oniisan",
+      "english": "older brother",
+      "category": "Family"
+    },
+    {
+      "id": "family-151",
+      "japanese": "お姉さん",
+      "kana": "おねえさん",
+      "romaji": "oneesan",
+      "english": "older sister",
+      "category": "Family"
+    },
+    {
+      "id": "family-152",
+      "japanese": "弟さん",
+      "kana": "おとうとさん",
+      "romaji": "otoutosan",
+      "english": "younger brother",
+      "category": "Family"
+    },
+    {
+      "id": "family-153",
+      "japanese": "妹さん",
+      "kana": "いもうとさん",
+      "romaji": "imoutosan",
+      "english": "younger sister",
+      "category": "Family"
+    },
+    {
+      "id": "family-154",
+      "japanese": "おじいさん",
+      "kana": "おじいさん",
+      "romaji": "ojiisan",
+      "english": "grandfather",
+      "category": "Family"
+    },
+    {
+      "id": "family-155",
+      "japanese": "おばあさん",
+      "kana": "おばあさん",
+      "romaji": "obaasan",
+      "english": "grandmother",
+      "category": "Family"
+    },
+    {
+      "id": "family-156",
+      "japanese": "息子さん",
+      "kana": "むすこさん",
+      "romaji": "musukosan",
+      "english": "son",
+      "category": "Family"
+    },
+    {
+      "id": "family-157",
+      "japanese": "娘さん",
+      "kana": "むすめさん",
+      "romaji": "musumesan",
+      "english": "daughter",
+      "category": "Family"
+    },
+    {
+      "id": "family-158",
+      "japanese": "ご主人",
+      "kana": "ごしゅじん",
+      "romaji": "goshujin",
+      "english": "husband",
+      "category": "Family"
+    },
+    {
+      "id": "family-159",
+      "japanese": "奥さん",
+      "kana": "おくさん",
+      "romaji": "okusan",
+      "english": "wife",
+      "category": "Family"
+    },
+    {
+      "id": "numbers-160",
+      "japanese": "一",
+      "kana": "いち",
+      "romaji": "ichi",
+      "english": "one",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-161",
+      "japanese": "二",
+      "kana": "に",
+      "romaji": "ni",
+      "english": "two",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-162",
+      "japanese": "三",
+      "kana": "さん",
+      "romaji": "san",
+      "english": "three",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-163",
+      "japanese": "四",
+      "kana": "よん",
+      "romaji": "yon",
+      "english": "four",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-164",
+      "japanese": "五",
+      "kana": "ご",
+      "romaji": "go",
+      "english": "five",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-165",
+      "japanese": "六",
+      "kana": "ろく",
+      "romaji": "roku",
+      "english": "six",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-166",
+      "japanese": "七",
+      "kana": "なな",
+      "romaji": "nana",
+      "english": "seven",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-167",
+      "japanese": "八",
+      "kana": "はち",
+      "romaji": "hachi",
+      "english": "eight",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-168",
+      "japanese": "九",
+      "kana": "きゅう",
+      "romaji": "kyuu",
+      "english": "nine",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-169",
+      "japanese": "十",
+      "kana": "じゅう",
+      "romaji": "juu",
+      "english": "ten",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-170",
+      "japanese": "十一",
+      "kana": "じゅういち",
+      "romaji": "juuichi",
+      "english": "eleven",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-171",
+      "japanese": "十二",
+      "kana": "じゅうに",
+      "romaji": "juuni",
+      "english": "twelve",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-172",
+      "japanese": "十三",
+      "kana": "じゅうさん",
+      "romaji": "juusan",
+      "english": "thirteen",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-173",
+      "japanese": "十四",
+      "kana": "じゅうよん",
+      "romaji": "juuyon",
+      "english": "fourteen",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-174",
+      "japanese": "十五",
+      "kana": "じゅうご",
+      "romaji": "juugo",
+      "english": "fifteen",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-175",
+      "japanese": "十六",
+      "kana": "じゅうろく",
+      "romaji": "juuroku",
+      "english": "sixteen",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-176",
+      "japanese": "十七",
+      "kana": "じゅうなな",
+      "romaji": "juunana",
+      "english": "seventeen",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-177",
+      "japanese": "十八",
+      "kana": "じゅうはち",
+      "romaji": "juuhachi",
+      "english": "eighteen",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-178",
+      "japanese": "十九",
+      "kana": "じゅうきゅう",
+      "romaji": "juukyuu",
+      "english": "nineteen",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-179",
+      "japanese": "二十",
+      "kana": "にじゅう",
+      "romaji": "nijuu",
+      "english": "twenty",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-180",
+      "japanese": "三十",
+      "kana": "さんじゅう",
+      "romaji": "sanjuu",
+      "english": "thirty",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-181",
+      "japanese": "四十",
+      "kana": "よんじゅう",
+      "romaji": "yonjuu",
+      "english": "forty",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-182",
+      "japanese": "五十",
+      "kana": "ごじゅう",
+      "romaji": "gojuu",
+      "english": "fifty",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-183",
+      "japanese": "六十",
+      "kana": "ろくじゅう",
+      "romaji": "rokujuu",
+      "english": "sixty",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-184",
+      "japanese": "七十",
+      "kana": "ななじゅう",
+      "romaji": "nanajuu",
+      "english": "seventy",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-185",
+      "japanese": "八十",
+      "kana": "はちじゅう",
+      "romaji": "hachijuu",
+      "english": "eighty",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-186",
+      "japanese": "九十",
+      "kana": "きゅうじゅう",
+      "romaji": "kyuujuu",
+      "english": "ninety",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-187",
+      "japanese": "百",
+      "kana": "ひゃく",
+      "romaji": "hyaku",
+      "english": "one hundred",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-188",
+      "japanese": "数字",
+      "kana": "すうじ",
+      "romaji": "suuji",
+      "english": "number",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-189",
+      "japanese": "足す",
+      "kana": "たす",
+      "romaji": "tasu",
+      "english": "to add",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-190",
+      "japanese": "引く",
+      "kana": "ひく",
+      "romaji": "hiku",
+      "english": "to subtract",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-191",
+      "japanese": "は",
+      "kana": "は",
+      "romaji": "wa",
+      "english": "equals / is",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-192",
+      "japanese": "三 足す 五 は 八 で す。",
+      "kana": "さん たす ご は はち で す。",
+      "romaji": "san tasu go wa hachi desu.",
+      "english": "Three plus five equals eight.",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-193",
+      "japanese": "八 引く 二 は 六 で す。",
+      "kana": "はち ひく に は ろく で す。",
+      "romaji": "hachi hiku ni wa roku desu.",
+      "english": "Eight minus two equals six.",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-194",
+      "japanese": "四 足す 六 は 十 で す。",
+      "kana": "よん たす ろく は じゅう です。",
+      "romaji": "yon tasu roku wa juu desu.",
+      "english": "Four plus six equals ten.",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-195",
+      "japanese": "十二 引く 九 は 三 です。",
+      "kana": "じゅうに ひく きゅう は さん です。",
+      "romaji": "juuni hiku kyuu wa san desu.",
+      "english": "Twelve minus nine equals three.",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-196",
+      "japanese": "一歳",
+      "kana": "いっさい",
+      "romaji": "issai",
+      "english": "1 year old",
+      "category": "Numbers"
+    },
+    {
+      "id": "numbers-197",
+      "japanese": "二歳",
+      "kana": "にさい",
+      "romaji": "nisai",
+      "english": "2 years old",
+      "category": "Numbers"
+    },
+    {
+      "id": "age-198",
+      "japanese": "三歳",
+      "kana": "さんさい",
+      "romaji": "sansai",
+      "english": "3 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-199",
+      "japanese": "四歳",
+      "kana": "よんさい",
+      "romaji": "yonsai",
+      "english": "4 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-200",
+      "japanese": "五歳",
+      "kana": "ごさい",
+      "romaji": "gosai",
+      "english": "5 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-201",
+      "japanese": "六歳",
+      "kana": "ろくさい",
+      "romaji": "rokusai",
+      "english": "6 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-202",
+      "japanese": "七歳",
+      "kana": "ななさい",
+      "romaji": "nanasai",
+      "english": "7 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-203",
+      "japanese": "八歳",
+      "kana": "はっさい",
+      "romaji": "hassai",
+      "english": "8 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-204",
+      "japanese": "九歳",
+      "kana": "きゅうさい",
+      "romaji": "kyuusai",
+      "english": "9 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-205",
+      "japanese": "十歳",
+      "kana": "じゅっさい",
+      "romaji": "jussai",
+      "english": "10 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-206",
+      "japanese": "十六歳",
+      "kana": "じゅうろくさい",
+      "romaji": "juurokusai",
+      "english": "16 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-207",
+      "japanese": "二十歳",
+      "kana": "はたち",
+      "romaji": "hatachi",
+      "english": "20 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-208",
+      "japanese": "三十二歳",
+      "kana": "さんじゅうにさい",
+      "romaji": "sanjuunisai",
+      "english": "32 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-209",
+      "japanese": "五十二歳",
+      "kana": "ごじゅうにさい",
+      "romaji": "gojuunisai",
+      "english": "52 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-210",
+      "japanese": "六十歳",
+      "kana": "ろくじゅっさい",
+      "romaji": "rokujussai",
+      "english": "60 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-211",
+      "japanese": "七十歳",
+      "kana": "ななじゅっさい",
+      "romaji": "nanajussai",
+      "english": "70 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-212",
+      "japanese": "百歳",
+      "kana": "ひゃくさい",
+      "romaji": "hyakusai",
+      "english": "100 years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-213",
+      "japanese": "何歳",
+      "kana": "なんさい",
+      "romaji": "nansai",
+      "english": "how old",
+      "category": "Age"
+    },
+    {
+      "id": "age-214",
+      "japanese": "おいくつ",
+      "kana": "おいくつ",
+      "romaji": "oikutsu",
+      "english": "how old (polite)",
+      "category": "Age"
+    },
+    {
+      "id": "age-215",
+      "japanese": "歳",
+      "kana": "さい",
+      "romaji": "sai",
+      "english": "years old",
+      "category": "Age"
+    },
+    {
+      "id": "age-216",
+      "japanese": "私は十六歳で す。",
+      "kana": "わたし は じゅうろ くさい です。",
+      "romaji": "watashi wa juurokusai desu.",
+      "english": "I am 16 years old.",
+      "category": "Age"
+    },
+    {
+      "id": "age-217",
+      "japanese": "私は三十二歳で す。",
+      "kana": "わたし は さんじゅ うにさい です。",
+      "romaji": "watashi wa sanjuunisai desu.",
+      "english": "I am 32 years old.",
+      "category": "Age"
+    },
+    {
+      "id": "age-218",
+      "japanese": "私は五十二歳で す。",
+      "kana": "わたし は ごじゅう にさい です。",
+      "romaji": "watashi wa gojuunisai desu.",
+      "english": "I am 52 years old.",
+      "category": "Age"
+    },
+    {
+      "id": "age-219",
+      "japanese": "父は五十二歳で す。",
+      "kana": "ちち は ごじゅうに さい です。",
+      "romaji": "chichi wa gojuunisai desu.",
+      "english": "My father is 52 years old.",
+      "category": "Age"
+    },
+    {
+      "id": "age-220",
+      "japanese": "父は六十歳で す。",
+      "kana": "ちち は ろくじゅっ さい です。",
+      "romaji": "chichi wa rokujussai desu.",
+      "english": "My father is 60 years old.",
+      "category": "Age"
+    },
+    {
+      "id": "age-221",
+      "japanese": "父は七十歳で す。",
+      "kana": "ちち は ななじゅっ さい です。",
+      "romaji": "chichi wa nanajussai desu.",
+      "english": "My father is 70 years old.",
+      "category": "Age"
+    },
+    {
+      "id": "age-222",
+      "japanese": "姉はいません。",
+      "kana": "あね は いません。",
+      "romaji": "ane wa imasen.",
+      "english": "I don't have an older sister.",
+      "category": "Age"
+    },
+    {
+      "id": "age-223",
+      "japanese": "姉は二十五歳で す。",
+      "kana": "あね は にじゅうご さい です。",
+      "romaji": "ane wa nijuugosai desu.",
+      "english": "My older sister is 25 years old.",
+      "category": "Age"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-001",
+      "pattern": "Jobs",
+      "meaning": "I'm an engineer.",
+      "exampleJapanese": "エンジニア。",
+      "exampleEnglish": "I'm an engineer."
+    },
+    {
+      "id": "grammar-002",
+      "pattern": "Jobs",
+      "meaning": "I'm a teacher.",
+      "exampleJapanese": "きょうし。",
+      "exampleEnglish": "I'm a teacher."
+    },
+    {
+      "id": "grammar-003",
+      "pattern": "Jobs",
+      "meaning": "I'm a doctor.",
+      "exampleJapanese": "いしゃ。",
+      "exampleEnglish": "I'm a doctor."
+    },
+    {
+      "id": "grammar-004",
+      "pattern": "Jobs",
+      "meaning": "I'm a student.",
+      "exampleJapanese": "がくせい。",
+      "exampleEnglish": "I'm a student."
+    },
+    {
+      "id": "grammar-005",
+      "pattern": "Jobs",
+      "meaning": "Yeah, I am.",
+      "exampleJapanese": "うん、そう。",
+      "exampleEnglish": "Yeah, I am."
+    },
+    {
+      "id": "grammar-006",
+      "pattern": "Jobs",
+      "meaning": "No, I'm not.",
+      "exampleJapanese": "ううん、ちがう。",
+      "exampleEnglish": "No, I'm not."
+    },
+    {
+      "id": "grammar-007",
+      "pattern": "Languages",
+      "meaning": "I can speak Japanese.",
+      "exampleJapanese": "にほんごできる。",
+      "exampleEnglish": "I can speak Japanese."
+    },
+    {
+      "id": "grammar-008",
+      "pattern": "Languages",
+      "meaning": "I can't speak Japanese.",
+      "exampleJapanese": "にほんごできない。",
+      "exampleEnglish": "I can't speak Japanese."
+    },
+    {
+      "id": "grammar-009",
+      "pattern": "Languages",
+      "meaning": "I can speak a little Japanese.",
+      "exampleJapanese": "にほんごすこしできる。",
+      "exampleEnglish": "I can speak a little Japanese."
+    },
+    {
+      "id": "grammar-010",
+      "pattern": "Languages",
+      "meaning": "I can speak Spanish and Japanese.",
+      "exampleJapanese": "スペインごとにほんごで きる。",
+      "exampleEnglish": "I can speak Spanish and Japanese."
+    },
+    {
+      "id": "grammar-011",
+      "pattern": "Languages",
+      "meaning": "I can speak English and Polish.",
+      "exampleJapanese": "えいごとポーランドごで きる。",
+      "exampleEnglish": "I can speak English and Polish."
+    },
+    {
+      "id": "grammar-012",
+      "pattern": "Languages",
+      "meaning": "Yeah, I can speak 〇〇.",
+      "exampleJapanese": "うん、〇〇ごできる。",
+      "exampleEnglish": "Yeah, I can speak 〇〇."
+    },
+    {
+      "id": "grammar-013",
+      "pattern": "Languages",
+      "meaning": "No, I can't speak 〇〇.",
+      "exampleJapanese": "ううん、〇〇ごできない。",
+      "exampleEnglish": "No, I can't speak 〇〇."
+    },
+    {
+      "id": "grammar-014",
+      "pattern": "Possession",
+      "meaning": "Yes, it's my umbrella.",
+      "exampleJapanese": "はい、それはわたしのかさで す。",
+      "exampleEnglish": "Yes, it's my umbrella."
+    },
+    {
+      "id": "grammar-015",
+      "pattern": "Possession",
+      "meaning": "No, it's not my umbrella.",
+      "exampleJapanese": "いいえ、それはわたしのかさ じゃないです。",
+      "exampleEnglish": "No, it's not my umbrella."
+    },
+    {
+      "id": "grammar-016",
+      "pattern": "Possession",
+      "meaning": "It's my umbrella.",
+      "exampleJapanese": "それはわたしのかさです。",
+      "exampleEnglish": "It's my umbrella."
+    },
+    {
+      "id": "grammar-017",
+      "pattern": "Possession",
+      "meaning": "It's Tanaka's umbrella.",
+      "exampleJapanese": "それはたなかさんのかさで す。",
+      "exampleEnglish": "It's Tanaka's umbrella."
+    },
+    {
+      "id": "grammar-018",
+      "pattern": "Possession",
+      "meaning": "Yeah, it's mine.",
+      "exampleJapanese": "うん、わたしの。",
+      "exampleEnglish": "Yeah, it's mine."
+    },
+    {
+      "id": "grammar-019",
+      "pattern": "Possession",
+      "meaning": "No, it's not mine.",
+      "exampleJapanese": "ううん、わたしのじゃない。",
+      "exampleEnglish": "No, it's not mine."
+    },
+    {
+      "id": "grammar-020",
+      "pattern": "Possession",
+      "meaning": "It's mine.",
+      "exampleJapanese": "わたしの。",
+      "exampleEnglish": "It's mine."
+    },
+    {
+      "id": "grammar-021",
+      "pattern": "Possession",
+      "meaning": "It's Tanaka's.",
+      "exampleJapanese": "たなかさんの。",
+      "exampleEnglish": "It's Tanaka's."
+    }
+  ],
+  "selfIntroduction": [
+    {
+      "id": "self-001",
+      "pattern": "Self introduction",
+      "meaning": "I am from Spain.",
+      "exampleJapanese": "わたしはスペインからきました。",
+      "exampleEnglish": "I am from Spain."
+    },
+    {
+      "id": "self-002",
+      "pattern": "Self introduction",
+      "meaning": "I am 32 years old.",
+      "exampleJapanese": "わたしはさんじゅうにさいです。",
+      "exampleEnglish": "I am 32 years old."
+    },
+    {
+      "id": "self-003",
+      "pattern": "Self introduction",
+      "meaning": "I live in Warsaw.",
+      "exampleJapanese": "ワルシャワにすんでいます。",
+      "exampleEnglish": "I live in Warsaw."
+    },
+    {
+      "id": "self-004",
+      "pattern": "Self introduction",
+      "meaning": "I am an engineer.",
+      "exampleJapanese": "わたしはエンジニアです。",
+      "exampleEnglish": "I am an engineer."
+    },
+    {
+      "id": "self-005",
+      "pattern": "Self introduction",
+      "meaning": "I am currently studying Japanese.",
+      "exampleJapanese": "にほんごはべんきょうちゅうです。",
+      "exampleEnglish": "I am currently studying Japanese."
+    },
+    {
+      "id": "self-006",
+      "pattern": "Self introduction",
+      "meaning": "My family has two people.",
+      "exampleJapanese": "かぞくはふたりです。",
+      "exampleEnglish": "My family has two people."
+    }
+  ]
+}
