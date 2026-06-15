@@ -36,7 +36,7 @@ type AppState = {
   mastery: Record<string, Mastery>
 }
 
-type Mode = 'learn' | 'grammar' | 'self' | 'review' | 'challenge' | 'analytics' | 'search'
+type Mode = 'learn' | 'grammar' | 'review' | 'challenge' | 'analytics' | 'search'
 type ExerciseKind = 'english-kana' | 'kana-english' | 'kana-romaji' | 'english-japanese'
 
 const exerciseLabels: Record<ExerciseKind, string> = {
@@ -81,29 +81,6 @@ function Stat({ label, value }: { label: string; value: string | number }) {
       <div className="text-xs font-bold uppercase tracking-wide text-moss">{label}</div>
       <div className="mt-2 text-2xl font-bold text-ink">{value}</div>
     </div>
-  )
-}
-
-    <section className="paper-panel rounded-lg p-5">
-      <div className="flex items-center gap-3">
-        <div className="grid size-10 place-items-center rounded-md bg-sakura/20 text-sakuraDark">
-          <GraduationCap size={22} />
-        </div>
-        <div>
-          <h2 className="text-lg font-bold">Account</h2>
-          <p className="text-sm text-sumi">Email login keeps XP, streaks, and review history attached to a user.</p>
-        </div>
-      </div>
-      <div className="mt-4 grid gap-3 sm:grid-cols-2">
-        <input className="rounded-md border border-line bg-white/80 px-3 py-3" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email" />
-        <input className="rounded-md border border-line bg-white/80 px-3 py-3" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="password" type="password" />
-      </div>
-      {message && <p className="mt-3 text-sm text-sakuraDark">{message}</p>}
-      <div className="mt-4 flex flex-wrap gap-2">
-        <button className="primary-button" onClick={() => submit('login')}>Login</button>
-        <button className="secondary-button" onClick={() => submit('signup')}>Sign up</button>
-      </div>
-    </section>
   )
 }
 
@@ -477,7 +454,6 @@ export default function App() {
           </div>
           <div className="flex flex-wrap gap-2">
             <div className="rounded-md border border-line bg-white/70 px-3 py-2 text-sm font-bold"><Flame className="mr-1 inline" size={16} /> {state.profile.currentStreak} day streak</div>
-            <div className="rounded-md border border-line bg-white/70 px-3 py-2 text-sm font-bold">Level {levelFromXp(state.profile.xp)}</div>
             <div className="rounded-md border border-line bg-white/70 px-3 py-2 text-sm font-bold">Level {levelFromXp(state.profile.xp)} · {state.profile.xp} XP</div>
             <button className="secondary-button min-h-10 px-3" onClick={logout} title="Logout"><LogOut size={17} /></button>
           </div>
@@ -491,8 +467,6 @@ export default function App() {
             </button>
           ))}
         </div>
-
-        false && (<div />)
 
         <section className="mt-5">
           {(mode === 'learn' || mode === 'review' || mode === 'challenge') && (
