@@ -84,26 +84,6 @@ function Stat({ label, value }: { label: string; value: string | number }) {
   )
 }
 
-function AuthPanel({ onAuth }: { onAuth: (user: { id: string; email: string }) => void }) {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [message, setMessage] = useState(supabase ? '' : 'Supabase env vars are not set. Local mode is active.')
-
-  async function submit(kind: 'login' | 'signup') {
-    if (!supabase) {
-      onAuth({ id: USER_ID, email: email || 'local@sakura.study' })
-      return
-    }
-    const result =
-      kind === 'login'
-        ? await supabase.auth.signInWithPassword({ email, password })
-        : await supabase.auth.signUp({ email, password })
-    if (result.error) setMessage(result.error.message)
-    else if (result.data.user) onAuth({ id: result.data.user.id, email: result.data.user.email ?? email })
-    else setMessage('Check your email to finish signing up.')
-  }
-
-  return (
     <section className="paper-panel rounded-lg p-5">
       <div className="flex items-center gap-3">
         <div className="grid size-10 place-items-center rounded-md bg-sakura/20 text-sakuraDark">
@@ -131,16 +111,18 @@ function LearningCard({
   card,
   mode,
   onAttempt,
+  onNext,
   compact = false,
 }: {
   card: VocabularyCard
   mode: ExerciseKind
   onAttempt: (attempt: Omit<Attempt, 'userId' | 'timestamp'>) => void
+  onNext: () => void
   compact?: boolean
 }) {
   const prompt = getPrompt(card, mode)
   const [answer, setAnswer] = useState('')
-  const [result, setResult] = useState<'idle' | 'correct' | 'wrong'>('idle')
+  const [result, setResult] = useState<'idle' | 'correct' | 'wrong'>('idle') 
 
   useEffect(() => {
     setAnswer('')
@@ -187,6 +169,14 @@ function LearningCard({
         <div className={`mt-4 rounded-md border p-3 ${result === 'correct' ? 'border-moss bg-matcha/70' : 'border-sakura bg-sakura/10'}`}>
           <div className="flex items-center gap-2 font-bold">{result === 'correct' ? <Check size={18} /> : <X size={18} />} {result === 'correct' ? 'Correct' : 'Review this one'}</div>
           <div className="jp mt-1 text-sm">Expected: {prompt.expected}</div>
+
+          <button
+            type="button"
+            className="primary-button mt-3"
+            onClick={onNext}
+          >
+            Next Question →
+          </button>
         </div>
       )}
     </form>
@@ -465,8 +455,7 @@ export default function App() {
 
   const nav = [
     ['learn', BookOpen, 'Vocabulary'],
-    ['grammar', GraduationCap, 'Grammar'],
-    ['self', Sparkles, 'Self intro'],
+    ['grammar', GraduationCap, 'Sentence Practice'],
     ['review', RotateCcw, 'Review'],
     ['challenge', Timer, 'Challenge'],
     ['analytics', BarChart3, 'Analytics'],
@@ -489,7 +478,7 @@ export default function App() {
           <div className="flex flex-wrap gap-2">
             <div className="rounded-md border border-line bg-white/70 px-3 py-2 text-sm font-bold"><Flame className="mr-1 inline" size={16} /> {state.profile.currentStreak} day streak</div>
             <div className="rounded-md border border-line bg-white/70 px-3 py-2 text-sm font-bold">Level {levelFromXp(state.profile.xp)}</div>
-            <div className="rounded-md border border-line bg-white/70 px-3 py-2 text-sm font-bold">{state.profile.xp} XP</div>
+            <div className="rounded-md border border-line bg-white/70 px-3 py-2 text-sm font-bold">Level {levelFromXp(state.profile.xp)} · {state.profile.xp} XP</div>
             <button className="secondary-button min-h-10 px-3" onClick={logout} title="Logout"><LogOut size={17} /></button>
           </div>
         </header>
@@ -503,13 +492,19 @@ export default function App() {
           ))}
         </div>
 
-        {!authed && <div className="mt-5"><AuthPanel onAuth={(user) => { setAuthed(true); setState((current) => ({ ...current, profile: { ...current.profile, id: user.id, email: user.email } })) }} /></div>}
+        false && (<div />)
 
         <section className="mt-5">
           {(mode === 'learn' || mode === 'review' || mode === 'challenge') && (
             <div className="grid gap-5 lg:grid-cols-[1fr_340px]">
               <div>
-                <LearningCard card={card} mode={kind} onAttempt={recordAttempt} compact={mode === 'challenge'} />
+                <LearningCard
+                    card={card}
+                    mode={kind}
+                    onAttempt={recordAttempt}
+                    onNext={chooseNext}
+                    compact={mode === 'challenge'}
+                  />
                 <div className="mt-4 flex flex-wrap gap-2">
                   {(Object.keys(exerciseLabels) as ExerciseKind[]).map((item) => (
                     <button key={item} className={`tab-button ${kind === item ? 'tab-button-active' : ''}`} onClick={() => setKind(item)}>{exerciseLabels[item]}</button>
@@ -537,7 +532,6 @@ export default function App() {
             </div>
           )}
           {mode === 'grammar' && <GrammarPractice cards={data.grammar} onAttempt={recordAttempt} />}
-          {mode === 'self' && <GrammarPractice cards={data.selfIntroduction} onAttempt={recordAttempt} />}
           {mode === 'analytics' && <Analytics state={state} />}
           {mode === 'search' && <SearchView />}
         </section>
